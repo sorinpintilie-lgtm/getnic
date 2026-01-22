@@ -808,7 +808,6 @@ const App: React.FC = () => {
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li><a href="#" className="hover:text-primary transition-colors underline-animation">Despre noi</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors underline-animation">Proiecte</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors underline-animation">Blog</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors underline-animation">Contact</a></li>
               </ul>
             </div>
