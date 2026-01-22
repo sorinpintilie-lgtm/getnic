@@ -614,13 +614,15 @@ const App: React.FC = () => {
                     </div>
                     <div>
                       <div className="font-medium text-dark">Email</div>
-                      <div className="space-y-2">
+                      <div className="flex flex-wrap items-center gap-2">
                         <a href="mailto:office@getnic.ro" className="text-gray-600 hover:text-primary transition-colors">
                           office@getnic.ro
                         </a>
+                        <span className="text-gray-400">|</span>
                         <a href="mailto:vanzari@getnic.ro" className="text-gray-600 hover:text-primary transition-colors">
                           vanzari@getnic.ro
                         </a>
+                        <span className="text-gray-400">|</span>
                         <a href="mailto:contact@getnic.ro" className="text-gray-600 hover:text-primary transition-colors">
                           contact@getnic.ro
                         </a>
@@ -652,13 +654,15 @@ const App: React.FC = () => {
                     </div>
                     <div>
                       <div className="font-medium text-dark">Mobil</div>
-                      <div className="space-y-2">
+                      <div className="flex flex-wrap items-center gap-2">
                         <a href="tel:0724579775" className="text-gray-600 hover:text-primary transition-colors">
                           0724 579 775
                         </a>
+                        <span className="text-gray-400">|</span>
                         <a href="tel:0726393268" className="text-gray-600 hover:text-primary transition-colors">
                           0726 393 268
                         </a>
+                        <span className="text-gray-400">|</span>
                         <a href="tel:0722247423" className="text-gray-600 hover:text-primary transition-colors">
                           0722 247 423
                         </a>
